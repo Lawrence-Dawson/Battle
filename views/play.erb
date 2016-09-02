@@ -3,6 +3,8 @@
 
 <h2><%= @game.player_2.name %>: HP <%= @game.player_2.hp %></h2>
 
+<h3><%= @game.current_turn.name %>'s turn</h3>
+
 <form action="/attack">
   <input type="submit" value="Attack!">
 </form>
