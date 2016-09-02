@@ -1,3 +1,5 @@
 <h2><%= @game.current_turn.name %> attacked <%= @game.opponent.name%>: HP <%= @game.opponent.hp %></h2>
 
-<a href="/switch_turns">OK</a>
+<form action="/switch_turns" method="post">
+  <input type="submit" value="OK">
+</form>

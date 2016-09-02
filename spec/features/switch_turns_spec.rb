@@ -9,7 +9,7 @@ feature 'switch turns' do
   scenario 'it becomes player_2s turn after player_1s' do
     sign_in_and_play
     click_button 'Attack!'
-    click_link 'OK'
+    click_button 'OK'
     expect(page).to have_content "James's turn"
     expect(page).not_to have_content "Lawrence's turn"
   end
