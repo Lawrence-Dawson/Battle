@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-feature 'attacking player_two' do
+feature 'attacking' do
 
   scenario 'attacking player_two' do
     sign_in_and_play

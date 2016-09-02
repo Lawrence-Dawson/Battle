@@ -1,3 +1,4 @@
+
 class Game
 
   attr_reader :attack
